@@ -4,6 +4,8 @@ kubectl apply -f pod.yaml
 kubectl exec -it podman-priv -- sh
 #### install wizcli into the containet for scaninng
 curl -o wizcli https://wizcli.test.wiz.io/wizcli
+
+
 ####
 chmod +x wizcli
 ####Set up the registry config file
