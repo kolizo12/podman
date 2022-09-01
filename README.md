@@ -2,7 +2,7 @@
 kubectl apply -f pod.yaml
 ####
 kubectl exec -it podman-priv -- sh
-#### install wizcli into the containet for scaninng
+#### install wizcli into the container for scaninng
 
 curl -o wizcli https://wizcli.app.wiz.io/wizcli
 ---
